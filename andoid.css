@@ -80,3 +80,30 @@ div {
 	-webkit-border-radius: 1.563em;
 }
 
+.l_leg, .r_leg {
+	height: 5.000em; top: 11.375em;
+	border-radius: 0 0 1.563em 1.563em;
+	-moz-border-radius: 0 0 1.563em 1.563em;
+	-webkit-border-radius: 0 0 1.563em 1.563em;
+}
+
+.l_arm {left: -3.625em;}
+.r_arm {right: -3.625em;}
+.l_leg {left: 2.813em;}
+.r_leg {right: 2.813em;}
+
+.head:hover {
+	-webkit-transform: rotate(-5deg) translate(-0.250em, -0.500em);
+	-transform: rotate(-5deg) translate(-0.250em, -0.500em);
+	-moz-transform: rotate(-5deg) translate(-0.250em, -0.500em);
+}
+.l_arm:hover{
+	-webkit-transform: rotate(15deg) translate(-0.875em, 0);
+	-transform: rotate(15deg) translate(-0.875em, 0);
+	-moz-transform: rotate(15deg) translate(-0.875em, 0);
+}
+.r_arm:hover{
+	-webkit-transform: rotate(-30deg) translate(1.875em, 0);
+	-transform: rotate(-30deg) translate(1.875em, 0);
+	-moz-transform: rotate(-30deg) translate(1.875em, 0);
+}
